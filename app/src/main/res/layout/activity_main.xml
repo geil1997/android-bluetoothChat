@@ -67,4 +67,22 @@
         android:layout_toRightOf="@+id/editText"
         android:layout_below="@+id/lvNewDevices"/>
 
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/editText"
+        android:id="@+id/graphView">
+    </com.jjoe64.graphview.GraphView>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showGraph"
+        android:layout_toRightOf="@+id/btnStartConnection"
+        android:layout_marginRight="40dp"
+        android:layout_below="@+id/btnONOFF"
+        android:text="Show Graph">
+    </Button>
+
 </RelativeLayout>
